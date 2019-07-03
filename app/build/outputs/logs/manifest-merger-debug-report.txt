@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c3c59c14b9c5a70a0b44fd47586fbdc4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/044f44ade87edb027f4536af7254b5cc/AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ccc727d42431ce4ba270b1fb29a8548a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/966a44f2a78984a83709b8657a2dd634/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c28f653f61b426489d836112afdd598e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d02c93a23c726830770a0200a31eb56a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5875a4455d9042b6a4901a5419e61bf1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d2261e4dbc1f2cef1afc232e54d22872/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d37853d184a1bd1b5f4d4877ba8034c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/93f3d77f3255aedbb395f4d51863aa54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/873f705a025c2e89bfb6b01d64ebf638/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/7c67555932934a6c3364bda10fd4ba3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8e7836abe7dca4776beacdf8555cb909/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/fd2a9a2cc042b4e68d37cb1acf6bde26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/e844caa41db03fb16d03510c4ab56ce7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/cce450dd1a6158a4e3aae1f1f7c0be1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0e3e254582cc555aaa2e4d9b9acb055e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/89552f622e5d3999c565b80bffbaa433/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/412217535d971a91ad71e2ddebbec196/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5229c779e1f58762b44d5ab7c44265e9/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/16a2e6d7e9d17d5e58f0e24aeb18d1d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/3b8d4c542ef0d0afd566969de33f44f4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ec68a6558ccd2cf8e64cd28bf5e35a9c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0be50054ce4f6ba277d5dde1bcb44a35/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/a710fedec5275efe9952b8d95c2cd76b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/59a7edb610ff475a821e1c24656275c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/26acdfc78a8c6e32729a40d1a76a29e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/898f0723587b3073cab2bf61ddfa7021/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8588e37cb61314c30bda8a7269a937d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/80f0bca29ca1b3ea6e53ab8ff74c742b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d89c279d67e858ad8d0d96cf0502e99d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:10:5-39:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/044f44ade87edb027f4536af7254b5cc/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/044f44ade87edb027f4536af7254b5cc/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/89552f622e5d3999c565b80bffbaa433/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/89552f622e5d3999c565b80bffbaa433/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5229c779e1f58762b44d5ab7c44265e9/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5229c779e1f58762b44d5ab7c44265e9/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.codepath.apps.restclienttemplate.ComposeActivity
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:17:9-62
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:17:19-50
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:18:9-54
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:18:19-51
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:19:9-38:20
+	android:label
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:20:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:26:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:28:13-37:29
+action#android.intent.action.VIEW
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:31:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:32:27-75
+data
+ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:34:17-36:62
+	android:host
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:35:21-55
+	android:scheme
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml:36:21-59
+uses-sdk
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c3c59c14b9c5a70a0b44fd47586fbdc4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c3c59c14b9c5a70a0b44fd47586fbdc4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/044f44ade87edb027f4536af7254b5cc/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/044f44ade87edb027f4536af7254b5cc/AndroidManifest.xml:6:5-8:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ccc727d42431ce4ba270b1fb29a8548a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ccc727d42431ce4ba270b1fb29a8548a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/966a44f2a78984a83709b8657a2dd634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/966a44f2a78984a83709b8657a2dd634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c28f653f61b426489d836112afdd598e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c28f653f61b426489d836112afdd598e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d02c93a23c726830770a0200a31eb56a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d02c93a23c726830770a0200a31eb56a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5875a4455d9042b6a4901a5419e61bf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5875a4455d9042b6a4901a5419e61bf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d2261e4dbc1f2cef1afc232e54d22872/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d2261e4dbc1f2cef1afc232e54d22872/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d37853d184a1bd1b5f4d4877ba8034c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d37853d184a1bd1b5f4d4877ba8034c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/93f3d77f3255aedbb395f4d51863aa54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/93f3d77f3255aedbb395f4d51863aa54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/873f705a025c2e89bfb6b01d64ebf638/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/873f705a025c2e89bfb6b01d64ebf638/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/7c67555932934a6c3364bda10fd4ba3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/7c67555932934a6c3364bda10fd4ba3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8e7836abe7dca4776beacdf8555cb909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8e7836abe7dca4776beacdf8555cb909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/fd2a9a2cc042b4e68d37cb1acf6bde26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/fd2a9a2cc042b4e68d37cb1acf6bde26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/e844caa41db03fb16d03510c4ab56ce7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/e844caa41db03fb16d03510c4ab56ce7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/cce450dd1a6158a4e3aae1f1f7c0be1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/cce450dd1a6158a4e3aae1f1f7c0be1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0e3e254582cc555aaa2e4d9b9acb055e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0e3e254582cc555aaa2e4d9b9acb055e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/89552f622e5d3999c565b80bffbaa433/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/89552f622e5d3999c565b80bffbaa433/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/412217535d971a91ad71e2ddebbec196/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/412217535d971a91ad71e2ddebbec196/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5229c779e1f58762b44d5ab7c44265e9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/5229c779e1f58762b44d5ab7c44265e9/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/16a2e6d7e9d17d5e58f0e24aeb18d1d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/16a2e6d7e9d17d5e58f0e24aeb18d1d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/3b8d4c542ef0d0afd566969de33f44f4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/3b8d4c542ef0d0afd566969de33f44f4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ec68a6558ccd2cf8e64cd28bf5e35a9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/ec68a6558ccd2cf8e64cd28bf5e35a9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0be50054ce4f6ba277d5dde1bcb44a35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/0be50054ce4f6ba277d5dde1bcb44a35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/a710fedec5275efe9952b8d95c2cd76b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/a710fedec5275efe9952b8d95c2cd76b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/59a7edb610ff475a821e1c24656275c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/59a7edb610ff475a821e1c24656275c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/26acdfc78a8c6e32729a40d1a76a29e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/26acdfc78a8c6e32729a40d1a76a29e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/898f0723587b3073cab2bf61ddfa7021/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/898f0723587b3073cab2bf61ddfa7021/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8588e37cb61314c30bda8a7269a937d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8588e37cb61314c30bda8a7269a937d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/80f0bca29ca1b3ea6e53ab8ff74c742b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/idenize/.gradle/caches/transforms-2/files-2.1/80f0bca29ca1b3ea6e53ab8ff74c742b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d89c279d67e858ad8d0d96cf0502e99d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/d89c279d67e858ad8d0d96cf0502e99d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/idenize/Twitter-App/app/src/main/AndroidManifest.xml
