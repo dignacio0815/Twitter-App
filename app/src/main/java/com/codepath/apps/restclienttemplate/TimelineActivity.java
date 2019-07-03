@@ -3,6 +3,7 @@ package com.codepath.apps.restclienttemplate;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -24,6 +25,8 @@ import java.util.ArrayList;
 import cz.msebera.android.httpclient.Header;
 
 public class TimelineActivity extends AppCompatActivity {
+    private SwipeRefreshLayout swipeContainer;
+
     public static final int COMPOSE_TWEET_REQUEST_CODE = 100;
     private RestClient client; // Creating our own twitter client
     TweetAdapter tweetAdapter;
@@ -34,6 +37,10 @@ public class TimelineActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_timeline);
+
+        // Setup SwipeRefreshLayout
+        // Only ever call `setContentView` once right at the top
         setContentView(R.layout.activity_timeline);
 
         client = RestApplication.getRestClient(this); // accessing REST client
@@ -53,7 +60,7 @@ public class TimelineActivity extends AppCompatActivity {
         populateTimeline();
     }
 
-    @Override
+        @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
