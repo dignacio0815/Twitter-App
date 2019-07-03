@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jul 03 15:11:25 PDT 2019
+#Wed Jul 03 16:07:57 PDT 2019
 0.baseType=DIRECTORY
 0.base=/Users/idenize/Twitter-App/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex

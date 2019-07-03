@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".TimelineActivity">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabComposeTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_compose_tweet"
+        android:backgroundTint="@color/medium_red"/>
+
+
     <android.support.v4.widget.SwipeRefreshLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/swipeContainer"

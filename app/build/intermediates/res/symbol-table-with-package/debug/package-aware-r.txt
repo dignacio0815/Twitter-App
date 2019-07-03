@@ -1026,6 +1026,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_comment
 drawable ic_compose
+drawable ic_compose_tweet
 drawable ic_launcher
 drawable ic_like
 drawable ic_mtrl_chip_checked_black
@@ -1122,6 +1123,7 @@ id etTweetInput
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabComposeTweet
 id fill
 id fill_horizontal
 id fill_vertical
