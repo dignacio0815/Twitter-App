@@ -7,31 +7,36 @@
     android:layout_margin="5dp"
     android:layout_marginBottom="5dp">
 
-    <!--<ImageButton-->
-        <!--android:id="@+id/ibLike3"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:background="@android:color/white"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/tvBody"-->
-        <!--app:layout_constraintVertical_bias="0.0"-->
-        <!--app:srcCompat="@drawable/ic_retweet"-->
-        <!--tools:layout_editor_absoluteX="145dp" />-->
+    <ImageButton
+        android:id="@+id/ibRetweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibLike"
+        app:layout_constraintTop_toBottomOf="@+id/tvBody"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_retweet" />
 
-    <!--<ImageButton-->
-        <!--android:id="@+id/ibComment"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:background="@android:color/white"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/tvBody"-->
-        <!--app:layout_constraintVertical_bias="0.0"-->
-        <!--app:srcCompat="@drawable/ic_comment"-->
-        <!--tools:layout_editor_absoluteX="70dp" />-->
+    <ImageButton
+        android:id="@+id/ibComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibRetweet"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvBody"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_comment" />
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -57,9 +62,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/ivLikeButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
@@ -92,13 +95,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="152dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_like"
-        tools:layout_editor_absoluteX="224dp" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_like" />
 
 
 </android.support.constraint.ConstraintLayout>

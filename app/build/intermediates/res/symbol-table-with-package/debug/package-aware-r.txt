@@ -1135,7 +1135,9 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id ibComment
 id ibLike
+id ibRetweet
 id icon
 id icon_group
 id ifRoom
@@ -1144,7 +1146,6 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id ivLikeButton
 id ivProfileImage
 id labeled
 id largeLabel
