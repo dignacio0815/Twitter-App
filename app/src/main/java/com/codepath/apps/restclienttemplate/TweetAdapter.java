@@ -46,7 +46,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         viewHolder.tvUsername.setText(tweet.user.name);
         viewHolder.tvBody.setText(tweet.body);
         viewHolder.tvTime.setText(tweet.relativeTime);
-        viewHolder.tvAtName.setText(tweet.user.screenName);
+        viewHolder.tvAtName.setText('@' + tweet.user.screenName);
         Glide.with(context).load(tweet.user.profileImageUrl).into(viewHolder.ivProfileImage);
     }
 
@@ -65,6 +65,14 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             super(itemView);
             // perform findViewById
             ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
+            // rounding imageView
+//            // TODO -- rounded image view
+//            Bitmap bitmap = BitmapFactory.decodeResource(Resources.getSystem(), R.drawable.ic_compose);
+//            RoundedBitmapDrawable roundedBitmapDrawable = RoundedBitmapDrawableFactory.create(Resources.getSystem(), bitmap);
+//            roundedBitmapDrawable.setCircular(true);
+//            ivProfileImage.setImageDrawable(roundedBitmapDrawable);
+
+
             tvUsername = (TextView) itemView.findViewById(R.id.tvUserName);
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvTime = (TextView) itemView.findViewById(R.id.tvTime);
