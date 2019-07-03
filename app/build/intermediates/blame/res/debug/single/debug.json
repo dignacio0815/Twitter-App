@@ -180,12 +180,12 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -204,16 +204,16 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/menu_login.xml.flat",
-        "source": "/Users/idenize/Twitter-App/app/src/main/res/menu/login.xml"
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/menu_login.xml.flat",
+        "source": "/Users/idenize/Twitter-App/app/src/main/res/menu/login.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
@@ -480,16 +480,16 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/layout/abc_tooltip.xml"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/color/mtrl_tabs_ripple_color.xml"
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/color/mtrl_tabs_ripple_color.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -712,16 +712,16 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_compose_tweet.png.flat",
+        "source": "/Users/idenize/Twitter-App/app/src/main/res/drawable-xhdpi/ic_compose_tweet.png"
+    },
+    {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/color_mtrl_tabs_colored_ripple_color.xml.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/color/mtrl_tabs_colored_ripple_color.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/15b5e013075f2e26e31b9edef6cdddd1/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_compose_tweet.png.flat",
-        "source": "/Users/idenize/Twitter-App/app/src/main/res/drawable-xhdpi/ic_compose_tweet.png"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1432,6 +1432,10 @@
         "source": "/Users/idenize/Twitter-App/app/src/main/res/drawable-mdpi/ic_retweet.png"
     },
     {
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/layout_action_view_progress.xml.flat",
+        "source": "/Users/idenize/Twitter-App/app/src/main/res/layout/action_view_progress.xml"
+    },
+    {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/layout/abc_dialog_title_material.xml"
     },
@@ -1724,12 +1728,12 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/color-v21/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_compose_tweet.png.flat",
         "source": "/Users/idenize/Twitter-App/app/src/main/res/drawable-mdpi/ic_compose_tweet.png"
+    },
+    {
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -2016,12 +2020,12 @@
         "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/328414754d5498e1a8d7c04f3a34908f/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
-        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_compose_tweet.png.flat",
         "source": "/Users/idenize/Twitter-App/app/src/main/res/drawable-xxhdpi/ic_compose_tweet.png"
+    },
+    {
+        "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
+        "source": "/Users/idenize/.gradle/caches/transforms-2/files-2.1/b7458dbd48e61eb876781c6efde29e8b/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/idenize/Twitter-App/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",

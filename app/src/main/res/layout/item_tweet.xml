@@ -19,7 +19,8 @@
         app:layout_constraintEnd_toStartOf="@+id/ibLike"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_retweet" />
+        app:srcCompat="@drawable/ic_retweet"
+        android:backgroundTint="@android:color/transparent"/>
 
     <ImageButton
         android:id="@+id/ibComment"
@@ -36,7 +37,8 @@
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_comment" />
+        app:srcCompat="@drawable/ic_comment"
+        android:backgroundTint="@android:color/transparent"/>
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -102,7 +104,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_like" />
+        app:srcCompat="@drawable/ic_like"
+        android:backgroundTint="@android:color/transparent"/>
 
 
 </android.support.constraint.ConstraintLayout>

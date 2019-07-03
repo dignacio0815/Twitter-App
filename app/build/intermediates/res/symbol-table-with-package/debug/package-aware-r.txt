@@ -1159,6 +1159,7 @@ id list_item
 id masked
 id media_actions
 id message
+id miActionProgress
 id miCompose
 id middle
 id mini
@@ -1178,6 +1179,7 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id pbProgressAction
 id percent
 id pin
 id progress_circular
@@ -1317,6 +1319,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout action_view_progress
 layout activity_compose
 layout activity_login
 layout activity_timeline
