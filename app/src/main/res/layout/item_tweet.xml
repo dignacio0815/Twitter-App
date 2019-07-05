@@ -70,7 +70,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
-        app:layout_constraintTop_toBottomOf="@+id/tvAtName" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAtName"
+        android:linksClickable="true"
+        android:autoLink="web" />
 
     <TextView
         android:id="@+id/tvTime"

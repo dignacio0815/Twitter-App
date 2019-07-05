@@ -42,9 +42,10 @@ public class TimelineActivity extends AppCompatActivity {
     FloatingActionButton fabComposeTweet;
     // Instance of the progress action-view
     MenuItem miActionProgressItem;
-
     ConstraintLayout clTweet;
     ImageView image;
+    private EndlessRecyclerViewScrollListener scrollListener;
+    long maxId = 0;
 
     // progress indicator appears at top right of Twitter app when screen is refreshed
     @Override
@@ -87,15 +88,26 @@ public class TimelineActivity extends AppCompatActivity {
         // construct adapter from data source
         tweetAdapter = new TweetAdapter(tweets);
 
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         // RecyclerView setup (layout manager, use adapter)
-        rvTweets.setLayoutManager(new LinearLayoutManager(this));
-        // set the adapter
+        rvTweets.setLayoutManager(linearLayoutManager);
+        // set the adaptergbtjbrknhljeihtuibhviccnhdktndug
         rvTweets.setAdapter(tweetAdapter);
+        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi(page);
+            }
+        };
+        // Adds the scroll listener to RecyclerView
+        rvTweets.addOnScrollListener(scrollListener);
         fabComposeTweet = (FloatingActionButton) findViewById(R.id.fabComposeTweet);
         clTweet = (ConstraintLayout) findViewById(R.id.ibComment);
         image = findViewById(R.id.ivProfileImage);
         setUpBtnListener();
-        populateTimeline();
+        populateTimeline(maxId);
 
         // Lookup the swipe container view
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
@@ -118,12 +130,22 @@ public class TimelineActivity extends AppCompatActivity {
                 android.R.color.holo_red_light);
     }
 
+    public void loadNextDataFromApi(int offset) {
+        maxId = tweets.get(tweets.size() - 1).uid;
+        populateTimeline(maxId);
+        // Send an API request to retrieve appropriate paginated data
+        //  --> Send the request including an offset value (i.e `page`) as a query parameter.
+        //  --> Deserialize and construct new model objects from the API response
+        //  --> Append the new data objects to the existing set of items inside the array of items
+        //  --> Notify the adapter of the new items made with `notifyItemRangeInserted()`
+    }
+
     public void fetchTimelineAsync(final int page) {
         // Send the network request to fetch the updated data
         // `client` here is an instance of Android Async HTTP
         // getHomeTimeline is an example endpoint.
         showProgressBar();
-        client.getHomeTimeline(new JsonHttpResponseHandler() {
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 // Remember to CLEAR OUT old items before appending in the new ones
@@ -202,8 +224,8 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     // method to populate timeline on feed
-    private void populateTimeline() {
-        client.getHomeTimeline(new JsonHttpResponseHandler() { // creating an anonymous class to handle network call
+    private void populateTimeline(long maxId) {
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler() { // creating an anonymous class to handle network call
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 Log.d("Twitter Client", response.toString()); // logs success if client responds
@@ -264,20 +286,6 @@ public class TimelineActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }
-//    public void setUpBtnReplyListener() {
-//        ibComment.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                switch(v.getId()) {
-//                    case R.id.ibComment:
-//                        Log.i("Info", "IBcomment is working");
-////                        composeReply();
-//                }
-//            }
-//        });
-
 
 
