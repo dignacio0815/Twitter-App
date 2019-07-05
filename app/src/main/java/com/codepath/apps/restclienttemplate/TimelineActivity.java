@@ -1,8 +1,10 @@
 package com.codepath.apps.restclienttemplate;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -13,6 +15,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -40,12 +43,16 @@ public class TimelineActivity extends AppCompatActivity {
     // Instance of the progress action-view
     MenuItem miActionProgressItem;
 
+    ConstraintLayout clTweet;
+    ImageView image;
+
+    // progress indicator appears at top right of Twitter app when screen is refreshed
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // Store instance of the menu item containing progress
         miActionProgressItem = menu.findItem(R.id.miActionProgress);
         // Extract the action-view from the menu item
-        ProgressBar v =  (ProgressBar) MenuItemCompat.getActionView(miActionProgressItem);
+        ProgressBar v = (ProgressBar) MenuItemCompat.getActionView(miActionProgressItem);
         // Return to finish
         return super.onPrepareOptionsMenu(menu);
     }
@@ -60,6 +67,7 @@ public class TimelineActivity extends AppCompatActivity {
         miActionProgressItem.setVisible(false);
     }
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +92,8 @@ public class TimelineActivity extends AppCompatActivity {
         // set the adapter
         rvTweets.setAdapter(tweetAdapter);
         fabComposeTweet = (FloatingActionButton) findViewById(R.id.fabComposeTweet);
+        clTweet = (ConstraintLayout) findViewById(R.id.ibComment);
+        image = findViewById(R.id.ivProfileImage);
         setUpBtnListener();
         populateTimeline();
 
@@ -185,6 +195,12 @@ public class TimelineActivity extends AppCompatActivity {
         startActivityForResult(composeTweet, COMPOSE_TWEET_REQUEST_CODE);
     }
 
+    private void composeReply() {
+        // open compose activity to create a new comment/reply
+        Intent composeReply = new Intent(this, ComposeActivity.class);
+        startActivityForResult(composeReply, 200);
+    }
+
     // method to populate timeline on feed
     private void populateTimeline() {
         client.getHomeTimeline(new JsonHttpResponseHandler() { // creating an anonymous class to handle network call
@@ -232,12 +248,36 @@ public class TimelineActivity extends AppCompatActivity {
             }
         });
     }
+
     public void setUpBtnListener() {
         fabComposeTweet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                composeMessage();
+                switch (v.getId()) {
+                    case R.id.fabComposeTweet:
+                        composeMessage();
+                }
+            }
+
+            private void detailedTweet() {
+                Toast.makeText(TimelineActivity.this, "constraint layout click", Toast.LENGTH_LONG).show();
             }
         });
     }
+
+
 }
+//    public void setUpBtnReplyListener() {
+//        ibComment.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                switch(v.getId()) {
+//                    case R.id.ibComment:
+//                        Log.i("Info", "IBcomment is working");
+////                        composeReply();
+//                }
+//            }
+//        });
+
+
+

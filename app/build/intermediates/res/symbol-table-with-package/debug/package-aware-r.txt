@@ -1095,6 +1095,7 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clTweet
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1337,6 +1338,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout detail_view
 layout item_tweet
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

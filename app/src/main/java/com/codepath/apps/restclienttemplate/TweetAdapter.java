@@ -1,11 +1,13 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,6 +19,7 @@ import java.util.List;
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{ // reference to TweetAdapter
     private List<Tweet> mTweets;
     Context context;
+
     // pass in tweets array into constructor
     public TweetAdapter(List<Tweet> tweets) {
         mTweets = tweets;
@@ -54,12 +57,14 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
     public int getItemCount() { return mTweets.size(); }
 
     // create ViewHolder class, contain all findviewbyid lookups
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivProfileImage;
         public TextView tvUsername;
         public TextView tvBody;
         public TextView tvTime;
         public TextView tvAtName;
+
+        ImageButton ibComment;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -77,9 +82,23 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvTime = (TextView) itemView.findViewById(R.id.tvTime);
             tvAtName = itemView.findViewById(R.id.tvAtName);
+            ibComment = itemView.findViewById(R.id.ibComment);
+            ibComment.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Tweet tweet = mTweets.get(getAdapterPosition());
+                    Intent comment = new Intent(v.getContext(), ComposeActivity.class);
+                    comment.putExtra("Comment", tweet.uid);
+                    comment.putExtra("User Handle", tweet.user.screenName);
+                    v.getContext().startActivity(comment);
+                }
+            });
+            // put extra for user_handle, tweet.user.screen_name
+            // put extra
+
+            }
         }
 
-    }
     /* Within the RecyclerView.Adapter class */
 
     // Clean all elements of the recycler
@@ -93,4 +112,6 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         mTweets.addAll(list);
         notifyDataSetChanged();
     }
+
+
 }

@@ -28,6 +28,8 @@ public class ComposeActivity extends AppCompatActivity {
     Button btnSend;
     RestClient client;
     TextView tvCharCount;
+    long uid;
+    String message;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,9 +41,38 @@ public class ComposeActivity extends AppCompatActivity {
         tvCharCount = findViewById(R.id.tvCharacterCounter);
         // add text changed listener
         etTweetInput.addTextChangedListener(inputCharacterCounter);
+        uid = getIntent().getLongExtra("Comment", 0);
+        String userHandle = getIntent().getStringExtra("User Handle");
+        if (uid != 0) {
+            etTweetInput.setText('@' + userHandle);
+        }
         btnSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (uid != 0) {
+                    client.sendComment(etTweetInput.getText().toString(), uid, new AsyncHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+                            if (statusCode == 200) {
+                                try {
+                                    // parsing response
+                                    JSONObject responseJson = new JSONObject(new String(responseBody));
+                                    Tweet resultTweet = Tweet.fromJSON(responseJson);
+                                    // return result to calling activity
+                                    Intent resultData = new Intent();
+                                    resultData.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(resultTweet));
+                                    setResult(RESULT_OK, resultData);
+                                    finish();
+                                } catch (JSONException e) {
+                                    Log.e("ComposeActivity", "Error parsing response", e);
+                                }
+                            }
+                        }
+                        @Override
+                        public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+                        }
+                    });
+                } else {
                     client.sendTweet(etTweetInput.getText().toString(), new AsyncHttpResponseHandler() {
                         @Override
                         public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
@@ -65,13 +96,12 @@ public class ComposeActivity extends AppCompatActivity {
                                 }
                             }
                         }
-
                         @Override
                         public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-
                         }
                     });
                 }
+            }
         });
         client = RestApplication.getRestClient(this);
     }

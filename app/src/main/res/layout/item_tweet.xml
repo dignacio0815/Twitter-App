@@ -2,10 +2,12 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clTweet"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    android:layout_marginBottom="5dp">
+    android:layout_marginBottom="5dp"
+    android:clickable="true">
 
     <ImageButton
         android:id="@+id/ibRetweet"
@@ -15,12 +17,12 @@
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/white"
+        android:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ibLike"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_retweet"
-        android:backgroundTint="@android:color/transparent"/>
+        app:srcCompat="@drawable/ic_retweet" />
 
     <ImageButton
         android:id="@+id/ibComment"
@@ -31,14 +33,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/white"
+        android:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ibRetweet"
         app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_comment"
-        android:backgroundTint="@android:color/transparent"/>
+        app:srcCompat="@drawable/ic_comment" />
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -100,12 +102,12 @@
         android:layout_marginEnd="152dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/white"
+        android:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBody"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_like"
-        android:backgroundTint="@android:color/transparent"/>
+        app:srcCompat="@drawable/ic_like" />
 
 
 </android.support.constraint.ConstraintLayout>
