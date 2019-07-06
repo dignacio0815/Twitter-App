@@ -56,9 +56,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="$PROJECT_DIR$/../Downloads/twitter-redesign-icons/pngs/ic_vector_compose.png" />
-                                      <entry key="outputName" value="ic_compose_tweet" />
-                                      <entry key="theme" value="HOLO_DARK" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/../Downloads/twitter-redesign-icons/pngs/ic_vector_retweet_stroke.png" />
+                                      <entry key="outputName" value="ic_vector_retweet_stroke" />
                                       <entry key="themeColor" value="aab8c2" />
                                     </map>
                                   </option>

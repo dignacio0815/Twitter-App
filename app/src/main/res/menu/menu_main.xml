@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/miLogout"
+        app:showAsAction="always"
+        android:title="Log Out">
+    </item>
+    <item
         android:id="@+id/miCompose"
         android:icon="@drawable/ic_compose"
         app:showAsAction="ifRoom"
@@ -14,5 +19,4 @@
         android:orderInCategory="100"
         app:showAsAction="always"
         app:actionLayout="@layout/action_view_progress" />
-
 </menu>

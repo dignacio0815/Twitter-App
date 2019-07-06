@@ -18,7 +18,10 @@ public class Tweet { //purpose of class to translate data we receive into data w
     public User user; //declaration of User class
     public String createdAt;
     public String relativeTime;
-
+    public boolean isFavorited;
+    public boolean isRetweeted;
+    public int favoriteCount;
+    public int favoriteRetweet;
     // deserialize the JSON
     public static Tweet fromJSON(JSONObject jsonObject) throws JSONException {
         Tweet tweet = new Tweet();
@@ -29,6 +32,13 @@ public class Tweet { //purpose of class to translate data we receive into data w
          tweet.createdAt = jsonObject.getString("created_at");
          tweet.user = User.fromJSON(jsonObject.getJSONObject("user")); // calling User class to unpack user json object
          tweet.relativeTime = (String) getRelativeTimeAgo(tweet.createdAt);
+
+         tweet.isFavorited = jsonObject.getBoolean("favorited");
+         tweet.isRetweeted = jsonObject.getBoolean("retweeted");
+
+         tweet.favoriteCount = jsonObject.getInt("favorite_count");
+         tweet.favoriteRetweet = jsonObject.getInt("retweet_count");
+
          return tweet;
     }
 

@@ -1033,6 +1033,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_retweet
+drawable ic_vector_heart_dark
+drawable ic_vector_retweet_stroke
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1080,6 +1082,7 @@ id add
 id alertTitle
 id all
 id always
+id appBar
 id async
 id auto
 id barrier
@@ -1157,11 +1160,13 @@ id line1
 id line3
 id listMode
 id list_item
+id main_content
 id masked
 id media_actions
 id message
 id miActionProgress
 id miCompose
+id miLogout
 id middle
 id mini
 id mtrl_child_content_container
@@ -1262,6 +1267,8 @@ id transition_transform
 id tvAtName
 id tvBody
 id tvCharacterCounter
+id tvFavoriteCount
+id tvRetweet
 id tvTime
 id tvUserName
 id uniform

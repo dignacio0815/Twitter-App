@@ -86,7 +86,7 @@ public class TimelineActivity extends AppCompatActivity {
         tweets = new ArrayList<>();
 
         // construct adapter from data source
-        tweetAdapter = new TweetAdapter(tweets);
+        tweetAdapter = new TweetAdapter(tweets, client);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         // RecyclerView setup (layout manager, use adapter)
@@ -192,9 +192,19 @@ public class TimelineActivity extends AppCompatActivity {
             case R.id.miCompose:
                 composeMessage();
                 return true;
+
+            case R.id.miLogout:
+                signout();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void signout() {
+        client.clearAccessToken();
+        finish();
+
     }
 
     @Override

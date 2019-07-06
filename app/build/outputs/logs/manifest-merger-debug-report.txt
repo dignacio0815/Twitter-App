@@ -12,6 +12,7 @@ MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/idenize/.gradle
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/idenize/.gradle/caches/transforms-2/files-2.1/8dd787804bc83936f974e13de2de7c92/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/81ade69a3d82a2af52e3ffe0ba0f8e70/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/966a44f2a78984a83709b8657a2dd634/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/c28f653f61b426489d836112afdd598e/AndroidManifest.xml:17:1-22:12
@@ -165,6 +166,8 @@ MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/tra
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/66eb37d87b1a027ce3170401577e5c5d/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/4e69a460e55c5ca2331945dc4f00efa4/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/81ade69a3d82a2af52e3ffe0ba0f8e70/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/81ade69a3d82a2af52e3ffe0ba0f8e70/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/68a4ce7080ab002881a310b7ab5f8627/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/idenize/.gradle/caches/transforms-2/files-2.1/966a44f2a78984a83709b8657a2dd634/AndroidManifest.xml:20:5-44
