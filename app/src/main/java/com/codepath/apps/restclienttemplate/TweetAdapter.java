@@ -41,7 +41,6 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
     }
 
     // bind the values based on the position of the element
-
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int position) {
         // get the data according to the position
@@ -115,23 +114,20 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
     @Override
     public int getItemCount() { return mTweets.size(); }
 
-    // create ViewHolder class, contain all findviewbyid lookups
+    // create ViewHolder class, contain all lookups
     public class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivProfileImage;
         public TextView tvBody;
         public TextView tvTime;
         public TextView tvAtName;
         public TextView tvUsername;
-//        @BindView(R.id.tvUserName) TextView tvUsername;
-//        @BindView(R.id.tvBody) TextView tvBody;
-//        @BindView(R.id.tvAtName) TextView tvTime;
+
         public ImageButton ibRetweet;
         public ImageButton ibFavorite;
         public ImageButton ibReply;
 
         public TextView tvFavorite;
         public TextView tvRetweet;
-//        @BindView(R.id.tvAtName) itemView tvAtName;
 
 
         ImageButton ibComment;
